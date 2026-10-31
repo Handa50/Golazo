@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golazo | Todo el fútbol</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101828;
+            color: white;
+        }
+
+        header {
+            background: #17243a;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #53f29a;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #173d34, #101828);
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .hero span {
+            color: #53f29a;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #53f29a;
+            color: #101828;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .partido {
+            background: #1c2a40;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .marcador {
+            font-size: 24px;
+            font-weight: bold;
+            color: #53f29a;
+        }
+
+        .etiqueta {
+            color: #53f29a;
+            font-size: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⚽ GOLAZO</div>
+
+    <nav>
+        <a href="#partidos">Partidos</a>
+        <a href="#ligas">Ligas</a>
+        <a href="#noticias">Noticias</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>El fútbol se vive en <span>Golazo</span></h1>
+    <p>Resultados, partidos, equipos y toda la actualidad del fútbol.</p>
+    <a href="#partidos" class="boton">Ver partidos</a>
+</section>
+
+<main>
+
+    <section id="partidos">
+        <h2>⚡ Partidos destacados</h2>
+
+        <div class="partido">
+            <div>
+                <div>Real Madrid</div>
+                <div>FC Barcelona</div>
+            </div>
+            <div class="marcador">2 - 1</div>
+        </div>
+
+        <div class="partido">
+            <div>
+                <div>Manchester City</div>
+                <div>Liverpool</div>
+            </div>
+            <div class="marcador">1 - 1</div>
+        </div>
+    </section>
+
+    <section id="ligas">
+        <h2>🏆 Las grandes ligas</h2>
+        <div class="partido">🇪🇸 LaLiga</div>
+        <div class="partido">🏴 Premier League</div>
+        <div class="partido">🇮🇹 Serie A</div>
+        <div class="partido">🇩🇪 Bundesliga</div>
+    </section>
+
+    <section id="noticias">
+        <h2>📰 Actualidad del fútbol</h2>
+        <div class="partido">
+            Próximamente, las últimas noticias del mundo del fútbol.
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    Golazo © 2026 · Todo el fútbol en un solo lugar
+</footer>
+
+</body>
+</html>
