@@ -1,0 +1,99 @@
+name: Actualizar datos de Golazo
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Obtener datos de fútbol
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const ligas = {
+            "LaLiga": "PD",
+            "Premier League": "PL",
+            "Serie A": "SA",
+            "Bundesliga": "BL1",
+            "Champions League": "CL"
+          };
+
+          async function consultar(ruta) {
+            const respuesta = await fetch(
+              `https://api.football-data.org/v4/${ruta}`,
+              {
+                headers: {
+                  "X-Auth-Token": process.env.FOOTBALL_DATA_TOKEN
+                }
+              }
+            );
+
+            if (!respuesta.ok) {
+              throw new Error(`Error ${respuesta.status} en ${ruta}`);
+            }
+
+            return await respuesta.json();
+          }
+
+          async function iniciar() {
+            const datos = {
+              actualizado: new Date().toISOString(),
+              competiciones: {}
+            };
+
+            for (const [nombre, codigo] of Object.entries(ligas)) {
+              console.log("Descargando:", nombre);
+
+              const partidos = await consultar(
+                `competitions/${codigo}/matches`
+              );
+
+              const liga = { partidos };
+
+              if (codigo !== "CL") {
+                liga.clasificacion = await consultar(
+                  `competitions/${codigo}/standings`
+                );
+              }
+
+              datos.competiciones[nombre] = liga;
+            }
+
+            fs.writeFileSync(
+              "datos.json",
+              JSON.stringify(datos, null, 2)
+            );
+
+            console.log("¡Datos guardados!");
+          }
+
+          iniciar().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Guardar datos en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos.json
+          git diff --cached --quiet || (git commit -m "Actualizar datos de fútbol" && git push)
