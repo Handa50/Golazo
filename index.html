@@ -214,5 +214,81 @@
     Golazo © 2026 · Todo el fútbol en un solo lugar
 </footer>
 
+<script>
+async function cargarGolazo() {
+    try {
+        const respuesta = await fetch("./datos.json");
+        if (!respuesta.ok) throw new Error("No se pudieron cargar los datos");
+
+        const datos = await respuesta.json();
+
+        const partidos = document.getElementById("partidos");
+        const ligas = document.getElementById("ligas");
+
+        if (!partidos || !ligas) return;
+
+        partidos.innerHTML = "<h2>⚽ Resultados y partidos</h2>";
+        ligas.innerHTML = "<h2>🏆 Clasificaciones</h2>";
+
+        for (const [nombre, competicion] of Object.entries(datos.competiciones)) {
+            partidos.innerHTML += `<h3>${nombre}</h3>`;
+
+            const lista = competicion.partidos.matches || [];
+
+            if (lista.length === 0) {
+                partidos.innerHTML += "<p>No hay partidos disponibles.</p>";
+            }
+
+            lista.forEach(p => {
+                const fecha = new Date(p.utcDate).toLocaleString("es-ES", {
+                    dateStyle: "short",
+                    timeStyle: "short"
+                });
+
+                const resultado = p.score.fullTime.home !== null
+                    ? `${p.score.fullTime.home} - ${p.score.fullTime.away}`
+                    : fecha;
+
+                partidos.innerHTML += `
+                    <div class="partido">
+                        <div>${p.homeTeam.name}</div>
+                        <div class="marcador">${resultado}</div>
+                        <div>${p.awayTeam.name}</div>
+                    </div>
+                `;
+            });
+
+            const clasificacion = competicion.clasificacion;
+
+            if (clasificacion && clasificacion.standings) {
+                ligas.innerHTML += `<h3>${nombre}</h3>`;
+
+                clasificacion.standings
+                    .filter(s => s.type === "TOTAL")
+                    .forEach(grupo => {
+                        grupo.table.forEach(equipo => {
+                            ligas.innerHTML += `
+                                <div class="partido">
+                                    <div>${equipo.position}. ${equipo.team.name}</div>
+                                    <div class="marcador">${equipo.points} pts</div>
+                                </div>
+                            `;
+                        });
+                    });
+            }
+        }
+
+        partidos.innerHTML += `<p>Última actualización: ${new Date(datos.actualizado).toLocaleString("es-ES")}</p>`;
+
+    } catch (error) {
+        console.error(error);
+        document.getElementById("partidos").innerHTML +=
+            "<p>No se pudieron cargar los datos. Inténtalo más tarde.</p>";
+    }
+}
+
+cargarGolazo();
+</script>
+    
 </body>
 </html>
