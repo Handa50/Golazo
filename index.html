@@ -210,6 +210,47 @@ footer {
         font-size: 13px;
     }
 }
+/* ESCUDOS DE LOS EQUIPOS */
+.equipo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.equipo:last-child {
+    justify-content: flex-end;
+}
+
+.escudo {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.partido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.marcador {
+    min-width: 75px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .escudo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .equipo {
+        gap: 5px;
+        font-size: 12px;
+    }
+}
 </style>
 </head>
 
@@ -233,7 +274,7 @@ footer {
 
 <main>
 
-    <section id="partidos">
+    <section id="partidos">sxa<
     <h2>⚡ LaLiga EA Sports</h2>
 
     <h3>Partidos de hoy</h3>
@@ -359,11 +400,19 @@ async function cargarGolazo() {
                     : fecha;
 
                 partidos.innerHTML += `
-                    <div class="partido">
-                        <div>${p.homeTeam.name}</div>
-                        <div class="marcador">${resultado}</div>
-                        <div>${p.awayTeam.name}</div>
-                    </div>
+                   <div class="partido">
+    <div class="equipo">
+        ${p.homeTeam.crest ? `<img class="escudo" src="${p.homeTeam.crest}" alt="">` : ""}
+        <span>${p.homeTeam.name}</span>
+    </div>
+
+    <div class="marcador">${resultado}</div>
+
+    <div class="equipo">
+        ${p.awayTeam.crest ? `<img class="escudo" src="${p.awayTeam.crest}" alt="">` : ""}
+        <span>${p.awayTeam.name}</span>
+    </div>
+</div>
                 `;
             });
 
