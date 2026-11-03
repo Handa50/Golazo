@@ -469,15 +469,23 @@ async function cargarGolazo() {
 
 const buscador = document.getElementById("buscadorEquipos");
 
-buscador.addEventListener("input", function() {
-    const texto = this.value.toLowerCase();
+if (buscador) {
+    buscador.addEventListener("input", function() {
+        const texto = this.value
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
 
-    document.querySelectorAll("#partidos .partido").forEach(partido => {
-        const nombre = partido.textContent.toLowerCase();
+        document.querySelectorAll("#partidos .partido").forEach(partido => {
+            const nombre = partido.textContent
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "");
 
-        partido.style.display = nombre.includes(texto) ? "flex" : "none";
+            partido.style.display = nombre.includes(texto) ? "flex" : "none";
+        });
     });
-});
+}
         partidos.innerHTML += `<p>Última actualización: ${new Date(datos.actualizado).toLocaleString("es-ES")}</p>`;
 
     } catch (error) {
