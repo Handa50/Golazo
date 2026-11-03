@@ -251,6 +251,29 @@ footer {
         font-size: 12px;
     }
 }
+/* BUSCADOR DE EQUIPOS */
+
+.buscador-equipos {
+    width: 90%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #00e69a;
+    border-radius: 15px;
+    background: #102b46;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.buscador-equipos:focus {
+    box-shadow: 0 0 12px #00e69a;
+}
+
+.buscador-equipos::placeholder {
+    color: #a9c4d9;
+}
 </style>
 </head>
 
@@ -377,7 +400,15 @@ async function cargarGolazo() {
 
         if (!partidos || !ligas) return;
 
-        partidos.innerHTML = "<h2>⚽ Resultados y partidos</h2>";
+        partidos.innerHTML = `
+    <h2>⚽ Resultados y partidos</h2>
+    <input
+        type="text"
+        id="buscadorEquipos"
+        placeholder="🔎 Buscar equipo..."
+        class="buscador-equipos"
+    >
+`;
         ligas.innerHTML = "<h2>🏆 Clasificaciones</h2>";
 
         for (const [nombre, competicion] of Object.entries(datos.competiciones)) {
@@ -436,6 +467,17 @@ async function cargarGolazo() {
             }
         }
 
+const buscador = document.getElementById("buscadorEquipos");
+
+buscador.addEventListener("input", function() {
+    const texto = this.value.toLowerCase();
+
+    document.querySelectorAll("#partidos .partido").forEach(partido => {
+        const nombre = partido.textContent.toLowerCase();
+
+        partido.style.display = nombre.includes(texto) ? "flex" : "none";
+    });
+});
         partidos.innerHTML += `<p>Última actualización: ${new Date(datos.actualizado).toLocaleString("es-ES")}</p>`;
 
     } catch (error) {
