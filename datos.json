@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T12:52:20.989Z",
+  "actualizado": "2026-11-04T00:47:06.061Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -89521,7 +89521,7 @@
           "count": 144,
           "first": "2026-09-08",
           "last": "2027-01-27",
-          "played": 54
+          "played": 63
         },
         "competition": {
           "id": 2001,
@@ -93118,11 +93118,11 @@
             },
             "id": 575377,
             "utcDate": "2026-11-03T17:45:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 1887,
               "name": "FK Shakhtar Donetsk",
@@ -93138,21 +93138,28 @@
               "crest": "https://crests.football-data.org/498.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43954,
+                "name": "Ivan Kružliak",
+                "type": "REFEREE",
+                "nationality": "Slovakia"
+              }
+            ]
           },
           {
             "area": {
@@ -93177,11 +93184,11 @@
             },
             "id": 575378,
             "utcDate": "2026-11-03T17:45:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 610,
               "name": "Galatasaray SK",
@@ -93197,21 +93204,28 @@
               "crest": "https://crests.football-data.org/10.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11443,
+                "name": "Chris Kavanagh",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -93236,11 +93250,11 @@
             },
             "id": 575379,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 675,
               "name": "Feyenoord Rotterdam",
@@ -93256,21 +93270,28 @@
               "crest": "https://crests.football-data.org/108.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 3
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 30960,
+                "name": "Glenn Nyberg",
+                "type": "REFEREE",
+                "nationality": "Sweden"
+              }
+            ]
           },
           {
             "area": {
@@ -93295,11 +93316,11 @@
             },
             "id": 575380,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 81,
               "name": "FC Barcelona",
@@ -93315,21 +93336,28 @@
               "crest": "https://crests.football-data.org/58.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11029,
+                "name": "Davide Massa",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -93354,11 +93382,11 @@
             },
             "id": 575381,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 78,
               "name": "Club Atlético de Madrid",
@@ -93374,21 +93402,28 @@
               "crest": "https://crests.football-data.org/5.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43918,
+                "name": "François Letexier",
+                "type": "REFEREE",
+                "nationality": "France"
+              }
+            ]
           },
           {
             "area": {
@@ -93413,11 +93448,11 @@
             },
             "id": 575382,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:00Z",
             "homeTeam": {
               "id": 94,
               "name": "Villarreal CF",
@@ -93433,21 +93468,28 @@
               "crest": "https://crests.football-data.org/524.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 6
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 4
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43878,
+                "name": "Felix Zwayer",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
@@ -93472,11 +93514,11 @@
             },
             "id": 575383,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:01Z",
             "homeTeam": {
               "id": 66,
               "name": "Manchester United FC",
@@ -93492,21 +93534,28 @@
               "crest": "https://crests.football-data.org/100.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 206211,
+                "name": "Jesús Gil Manzano",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -93531,11 +93580,11 @@
             },
             "id": 575384,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:01Z",
             "homeTeam": {
               "id": 5721,
               "name": "FK Bodø/Glimt",
@@ -93551,21 +93600,28 @@
               "crest": "https://crests.football-data.org/521.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 38806,
+                "name": "João Pinheiro",
+                "type": "REFEREE",
+                "nationality": "Portugal"
+              }
+            ]
           },
           {
             "area": {
@@ -93590,11 +93646,11 @@
             },
             "id": 575385,
             "utcDate": "2026-11-03T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 4,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-03T00:20:28Z",
+            "lastUpdated": "2026-11-03T23:25:01Z",
             "homeTeam": {
               "id": 2016,
               "name": "LASK Linz",
@@ -93610,21 +93666,28 @@
               "crest": "https://crests.football-data.org/7509.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43952,
+                "name": "Donatas Rumšas",
+                "type": "REFEREE",
+                "nationality": "Lithuania"
+              }
+            ]
           },
           {
             "area": {
