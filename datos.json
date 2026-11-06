@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-06T12:52:18.294Z",
+  "actualizado": "2026-11-06T18:44:12.500Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -7152,7 +7152,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 129443,
+                "name": "Luis Bestard Servera",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -29524,7 +29531,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11494,
+                "name": "Stuart Attwell",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -53670,7 +53684,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 206189,
+                "name": "Juan Luca Sacchi",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -75384,7 +75405,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 15824,
+                "name": "Sven Jablonski",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
