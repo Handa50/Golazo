@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T18:33:19.229Z",
+  "actualizado": "2026-11-08T00:47:12.643Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -10,7 +10,7 @@
           "count": 380,
           "first": "2026-08-15",
           "last": "2027-05-30",
-          "played": 112
+          "played": 114
         },
         "competition": {
           "id": 2014,
@@ -7188,7 +7188,7 @@
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T15:03:47Z",
+            "lastUpdated": "2026-11-07T23:25:08Z",
             "homeTeam": {
               "id": 84,
               "name": "Málaga CF",
@@ -7254,7 +7254,7 @@
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T17:16:03Z",
+            "lastUpdated": "2026-11-07T23:25:08Z",
             "homeTeam": {
               "id": 80,
               "name": "RCD Espanyol de Barcelona",
@@ -7316,11 +7316,11 @@
             },
             "id": 564739,
             "utcDate": "2026-11-07T17:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T18:23:47Z",
+            "lastUpdated": "2026-11-07T23:25:08Z",
             "homeTeam": {
               "id": 79,
               "name": "CA Osasuna",
@@ -7339,8 +7339,8 @@
               "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": 0,
-                "away": 0
+                "home": 1,
+                "away": 1
               },
               "halfTime": {
                 "home": 0,
@@ -7382,11 +7382,11 @@
             },
             "id": 564741,
             "utcDate": "2026-11-07T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T00:20:31Z",
+            "lastUpdated": "2026-11-07T23:25:08Z",
             "homeTeam": {
               "id": 95,
               "name": "Valencia CF",
@@ -7402,15 +7402,15 @@
               "crest": "https://crests.football-data.org/86.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 3
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
               }
             },
             "odds": {
@@ -8882,6 +8882,124 @@
               "shortName": "Getafe",
               "tla": "GET",
               "crest": "https://crests.football-data.org/82.png"
+            },
+            "score": {
+              "winner": null,
+              "duration": "REGULAR",
+              "fullTime": {
+                "home": null,
+                "away": null
+              },
+              "halfTime": {
+                "home": null,
+                "away": null
+              }
+            },
+            "odds": {
+              "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "referees": []
+          },
+          {
+            "area": {
+              "id": 2224,
+              "name": "Spain",
+              "code": "ESP",
+              "flag": "https://crests.football-data.org/760.svg"
+            },
+            "competition": {
+              "id": 2014,
+              "name": "Primera Division",
+              "code": "PD",
+              "type": "LEAGUE",
+              "emblem": "https://crests.football-data.org/laliga.png"
+            },
+            "season": {
+              "id": 2518,
+              "startDate": "2026-08-16",
+              "endDate": "2027-05-30",
+              "currentMatchday": 12,
+              "winner": null
+            },
+            "id": 564855,
+            "utcDate": "2026-12-02T18:00:00Z",
+            "status": "TIMED",
+            "matchday": 23,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2026-11-07T23:25:08Z",
+            "homeTeam": {
+              "id": 92,
+              "name": "Real Sociedad de Fútbol",
+              "shortName": "Real Sociedad",
+              "tla": "RSO",
+              "crest": "https://crests.football-data.org/92.png"
+            },
+            "awayTeam": {
+              "id": 86,
+              "name": "Real Madrid CF",
+              "shortName": "Real Madrid",
+              "tla": "RMA",
+              "crest": "https://crests.football-data.org/86.png"
+            },
+            "score": {
+              "winner": null,
+              "duration": "REGULAR",
+              "fullTime": {
+                "home": null,
+                "away": null
+              },
+              "halfTime": {
+                "home": null,
+                "away": null
+              }
+            },
+            "odds": {
+              "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "referees": []
+          },
+          {
+            "area": {
+              "id": 2224,
+              "name": "Spain",
+              "code": "ESP",
+              "flag": "https://crests.football-data.org/760.svg"
+            },
+            "competition": {
+              "id": 2014,
+              "name": "Primera Division",
+              "code": "PD",
+              "type": "LEAGUE",
+              "emblem": "https://crests.football-data.org/laliga.png"
+            },
+            "season": {
+              "id": 2518,
+              "startDate": "2026-08-16",
+              "endDate": "2027-05-30",
+              "currentMatchday": 12,
+              "winner": null
+            },
+            "id": 564857,
+            "utcDate": "2026-12-02T20:30:00Z",
+            "status": "TIMED",
+            "matchday": 23,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2026-11-07T23:25:08Z",
+            "homeTeam": {
+              "id": 81,
+              "name": "FC Barcelona",
+              "shortName": "Barça",
+              "tla": "FCB",
+              "crest": "https://crests.football-data.org/81.png"
+            },
+            "awayTeam": {
+              "id": 78,
+              "name": "Club Atlético de Madrid",
+              "shortName": "Atleti",
+              "tla": "ATL",
+              "crest": "https://crests.football-data.org/78.png"
             },
             "score": {
               "winner": null,
@@ -14120,65 +14238,6 @@
               "currentMatchday": 12,
               "winner": null
             },
-            "id": 564855,
-            "utcDate": "2027-02-07T00:00:00Z",
-            "status": "SCHEDULED",
-            "matchday": 23,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2026-11-07T00:20:31Z",
-            "homeTeam": {
-              "id": 92,
-              "name": "Real Sociedad de Fútbol",
-              "shortName": "Real Sociedad",
-              "tla": "RSO",
-              "crest": "https://crests.football-data.org/92.png"
-            },
-            "awayTeam": {
-              "id": 86,
-              "name": "Real Madrid CF",
-              "shortName": "Real Madrid",
-              "tla": "RMA",
-              "crest": "https://crests.football-data.org/86.png"
-            },
-            "score": {
-              "winner": null,
-              "duration": "REGULAR",
-              "fullTime": {
-                "home": null,
-                "away": null
-              },
-              "halfTime": {
-                "home": null,
-                "away": null
-              }
-            },
-            "odds": {
-              "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
-          },
-          {
-            "area": {
-              "id": 2224,
-              "name": "Spain",
-              "code": "ESP",
-              "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-              "id": 2014,
-              "name": "Primera Division",
-              "code": "PD",
-              "type": "LEAGUE",
-              "emblem": "https://crests.football-data.org/laliga.png"
-            },
-            "season": {
-              "id": 2518,
-              "startDate": "2026-08-16",
-              "endDate": "2027-05-30",
-              "currentMatchday": 12,
-              "winner": null
-            },
             "id": 564856,
             "utcDate": "2027-02-07T00:00:00Z",
             "status": "SCHEDULED",
@@ -14199,65 +14258,6 @@
               "shortName": "Santander",
               "tla": "SAN",
               "crest": "https://crests.football-data.org/5335.png"
-            },
-            "score": {
-              "winner": null,
-              "duration": "REGULAR",
-              "fullTime": {
-                "home": null,
-                "away": null
-              },
-              "halfTime": {
-                "home": null,
-                "away": null
-              }
-            },
-            "odds": {
-              "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
-          },
-          {
-            "area": {
-              "id": 2224,
-              "name": "Spain",
-              "code": "ESP",
-              "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-              "id": 2014,
-              "name": "Primera Division",
-              "code": "PD",
-              "type": "LEAGUE",
-              "emblem": "https://crests.football-data.org/laliga.png"
-            },
-            "season": {
-              "id": 2518,
-              "startDate": "2026-08-16",
-              "endDate": "2027-05-30",
-              "currentMatchday": 12,
-              "winner": null
-            },
-            "id": 564857,
-            "utcDate": "2027-02-07T00:00:00Z",
-            "status": "SCHEDULED",
-            "matchday": 23,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2026-11-07T00:20:31Z",
-            "homeTeam": {
-              "id": 81,
-              "name": "FC Barcelona",
-              "shortName": "Barça",
-              "tla": "FCB",
-              "crest": "https://crests.football-data.org/81.png"
-            },
-            "awayTeam": {
-              "id": 78,
-              "name": "Club Atlético de Madrid",
-              "shortName": "Atleti",
-              "tla": "ATL",
-              "crest": "https://crests.football-data.org/78.png"
             },
             "score": {
               "winner": null,
@@ -23180,6 +23180,25 @@
               {
                 "position": 2,
                 "team": {
+                  "id": 86,
+                  "name": "Real Madrid CF",
+                  "shortName": "Real Madrid",
+                  "tla": "RMA",
+                  "crest": "https://crests.football-data.org/86.png"
+                },
+                "playedGames": 12,
+                "form": null,
+                "won": 10,
+                "draw": 0,
+                "lost": 2,
+                "points": 30,
+                "goalsFor": 31,
+                "goalsAgainst": 10,
+                "goalDifference": 21
+              },
+              {
+                "position": 3,
+                "team": {
                   "id": 78,
                   "name": "Club Atlético de Madrid",
                   "shortName": "Atleti",
@@ -23195,25 +23214,6 @@
                 "goalsFor": 22,
                 "goalsAgainst": 8,
                 "goalDifference": 14
-              },
-              {
-                "position": 3,
-                "team": {
-                  "id": 86,
-                  "name": "Real Madrid CF",
-                  "shortName": "Real Madrid",
-                  "tla": "RMA",
-                  "crest": "https://crests.football-data.org/86.png"
-                },
-                "playedGames": 11,
-                "form": null,
-                "won": 9,
-                "draw": 0,
-                "lost": 2,
-                "points": 27,
-                "goalsFor": 28,
-                "goalsAgainst": 10,
-                "goalDifference": 18
               },
               {
                 "position": 4,
@@ -23287,8 +23287,8 @@
                 "draw": 4,
                 "lost": 3,
                 "points": 16,
-                "goalsFor": 14,
-                "goalsAgainst": 10,
+                "goalsFor": 15,
+                "goalsAgainst": 11,
                 "goalDifference": 4
               },
               {
@@ -23458,8 +23458,8 @@
                 "draw": 3,
                 "lost": 6,
                 "points": 12,
-                "goalsFor": 11,
-                "goalsAgainst": 22,
+                "goalsFor": 12,
+                "goalsAgainst": 23,
                 "goalDifference": -11
               },
               {
@@ -23509,15 +23509,15 @@
                   "tla": "VAL",
                   "crest": "https://crests.football-data.org/95.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
                 "won": 2,
                 "draw": 3,
-                "lost": 6,
+                "lost": 7,
                 "points": 9,
                 "goalsFor": 8,
-                "goalsAgainst": 17,
-                "goalDifference": -9
+                "goalsAgainst": 20,
+                "goalDifference": -12
               },
               {
                 "position": 20,
@@ -23552,7 +23552,7 @@
           "count": 380,
           "first": "2026-08-21",
           "last": "2027-05-30",
-          "played": 94
+          "played": 95
         },
         "competition": {
           "id": 2021,
@@ -29595,7 +29595,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T14:32:51Z",
+            "lastUpdated": "2026-11-07T23:25:12Z",
             "homeTeam": {
               "id": 341,
               "name": "Leeds United FC",
@@ -29661,7 +29661,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T17:02:11Z",
+            "lastUpdated": "2026-11-07T23:25:12Z",
             "homeTeam": {
               "id": 57,
               "name": "Arsenal FC",
@@ -29727,7 +29727,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T17:03:15Z",
+            "lastUpdated": "2026-11-07T23:25:12Z",
             "homeTeam": {
               "id": 63,
               "name": "Fulham FC",
@@ -29789,11 +29789,11 @@
             },
             "id": 560641,
             "utcDate": "2026-11-07T17:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T18:25:55Z",
+            "lastUpdated": "2026-11-07T23:25:13Z",
             "homeTeam": {
               "id": 351,
               "name": "Nottingham Forest FC",
@@ -29812,8 +29812,8 @@
               "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": 2,
-                "away": 0
+                "home": 3,
+                "away": 1
               },
               "halfTime": {
                 "home": 2,
@@ -46713,8 +46713,8 @@
                 "draw": 0,
                 "lost": 3,
                 "points": 21,
-                "goalsFor": 20,
-                "goalsAgainst": 12,
+                "goalsFor": 21,
+                "goalsAgainst": 13,
                 "goalDifference": 8
               },
               {
@@ -46979,8 +46979,8 @@
                 "draw": 3,
                 "lost": 5,
                 "points": 9,
-                "goalsFor": 8,
-                "goalsAgainst": 12,
+                "goalsFor": 9,
+                "goalsAgainst": 13,
                 "goalDifference": -4
               },
               {
@@ -47073,7 +47073,7 @@
           "count": 380,
           "first": "2026-08-22",
           "last": "2027-05-30",
-          "played": 103
+          "played": 105
         },
         "competition": {
           "id": 2019,
@@ -53776,7 +53776,7 @@
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T16:16:51Z",
+            "lastUpdated": "2026-11-07T23:25:11Z",
             "homeTeam": {
               "id": 586,
               "name": "Torino FC",
@@ -53842,7 +53842,7 @@
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T15:59:47Z",
+            "lastUpdated": "2026-11-07T23:25:11Z",
             "homeTeam": {
               "id": 104,
               "name": "Cagliari Calcio",
@@ -53904,11 +53904,11 @@
             },
             "id": 558535,
             "utcDate": "2026-11-07T17:00:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T18:32:19Z",
+            "lastUpdated": "2026-11-07T23:25:11Z",
             "homeTeam": {
               "id": 112,
               "name": "Parma Calcio 1913",
@@ -53927,8 +53927,8 @@
               "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": 0,
-                "away": 1
+                "home": 1,
+                "away": 2
               },
               "halfTime": {
                 "home": 0,
@@ -53970,11 +53970,11 @@
             },
             "id": 558531,
             "utcDate": "2026-11-07T19:45:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T00:20:31Z",
+            "lastUpdated": "2026-11-07T23:25:11Z",
             "homeTeam": {
               "id": 100,
               "name": "AS Roma",
@@ -53990,15 +53990,15 @@
               "crest": "https://crests.football-data.org/471.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 0
               }
             },
             "odds": {
@@ -70292,6 +70292,25 @@
               {
                 "position": 2,
                 "team": {
+                  "id": 100,
+                  "name": "AS Roma",
+                  "shortName": "Roma",
+                  "tla": "ROM",
+                  "crest": "https://crests.football-data.org/100.png"
+                },
+                "playedGames": 11,
+                "form": null,
+                "won": 8,
+                "draw": 3,
+                "lost": 0,
+                "points": 27,
+                "goalsFor": 31,
+                "goalsAgainst": 10,
+                "goalDifference": 21
+              },
+              {
+                "position": 3,
+                "team": {
                   "id": 108,
                   "name": "FC Internazionale Milano",
                   "shortName": "Inter",
@@ -70307,25 +70326,6 @@
                 "goalsFor": 26,
                 "goalsAgainst": 13,
                 "goalDifference": 13
-              },
-              {
-                "position": 3,
-                "team": {
-                  "id": 100,
-                  "name": "AS Roma",
-                  "shortName": "Roma",
-                  "tla": "ROM",
-                  "crest": "https://crests.football-data.org/100.png"
-                },
-                "playedGames": 10,
-                "form": null,
-                "won": 7,
-                "draw": 3,
-                "lost": 0,
-                "points": 24,
-                "goalsFor": 28,
-                "goalsAgainst": 10,
-                "goalDifference": 18
               },
               {
                 "position": 4,
@@ -70418,8 +70418,8 @@
                 "draw": 2,
                 "lost": 4,
                 "points": 17,
-                "goalsFor": 15,
-                "goalsAgainst": 13,
+                "goalsFor": 16,
+                "goalsAgainst": 14,
                 "goalDifference": 2
               },
               {
@@ -70570,8 +70570,8 @@
                 "draw": 2,
                 "lost": 7,
                 "points": 8,
-                "goalsFor": 8,
-                "goalsAgainst": 16,
+                "goalsFor": 9,
+                "goalsAgainst": 17,
                 "goalDifference": -8
               },
               {
@@ -70583,15 +70583,15 @@
                   "tla": "SAS",
                   "crest": "https://crests.football-data.org/471.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
                 "won": 2,
                 "draw": 2,
-                "lost": 6,
+                "lost": 7,
                 "points": 8,
                 "goalsFor": 16,
-                "goalsAgainst": 26,
-                "goalDifference": -10
+                "goalsAgainst": 29,
+                "goalDifference": -13
               },
               {
                 "position": 18,
@@ -70664,7 +70664,7 @@
           "count": 306,
           "first": "2026-08-28",
           "last": "2027-05-22",
-          "played": 77
+          "played": 78
         },
         "competition": {
           "id": 2002,
@@ -75525,7 +75525,7 @@
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T16:28:35Z",
+            "lastUpdated": "2026-11-07T23:25:01Z",
             "homeTeam": {
               "id": 721,
               "name": "RB Leipzig",
@@ -75591,7 +75591,7 @@
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T16:30:43Z",
+            "lastUpdated": "2026-11-07T23:25:01Z",
             "homeTeam": {
               "id": 4,
               "name": "Borussia Dortmund",
@@ -75723,7 +75723,7 @@
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T16:28:35Z",
+            "lastUpdated": "2026-11-07T23:25:01Z",
             "homeTeam": {
               "id": 29,
               "name": "SC Paderborn 07",
@@ -75785,11 +75785,11 @@
             },
             "id": 565849,
             "utcDate": "2026-11-07T17:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-07T18:22:43Z",
+            "lastUpdated": "2026-11-07T23:25:01Z",
             "homeTeam": {
               "id": 10,
               "name": "VfB Stuttgart",
