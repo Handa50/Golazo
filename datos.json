@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T06:48:03.531Z",
+  "actualizado": "2026-11-08T12:38:12.291Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -7482,7 +7482,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 207113,
+                "name": "César Soto Grado",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -29889,7 +29896,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11378,
+                "name": "Tony Harrington",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -29948,7 +29962,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 23568,
+                "name": "Jarred Gillett",
+                "type": "REFEREE",
+                "nationality": "Australia"
+              }
+            ]
           },
           {
             "area": {
@@ -30007,7 +30028,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11430,
+                "name": "Simon Hooper",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -30066,7 +30094,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11605,
+                "name": "Michael Oliver",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -54036,11 +54071,11 @@
             },
             "id": 558533,
             "utcDate": "2026-11-08T11:30:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T01:32:00Z",
+            "lastUpdated": "2026-11-08T12:24:51Z",
             "homeTeam": {
               "id": 113,
               "name": "SSC Napoli",
@@ -54056,21 +54091,28 @@
               "crest": "https://crests.football-data.org/110.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11002,
+                "name": "Luca Pairetto",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -54129,7 +54171,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11029,
+                "name": "Davide Massa",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -54188,7 +54237,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 283434,
+                "name": "Claudio Allegretta",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -70279,15 +70335,15 @@
                   "tla": "LAZ",
                   "crest": "https://crests.football-data.org/110.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
-                "won": 9,
+                "won": 10,
                 "draw": 1,
                 "lost": 0,
-                "points": 28,
-                "goalsFor": 24,
+                "points": 31,
+                "goalsFor": 25,
                 "goalsAgainst": 8,
-                "goalDifference": 16
+                "goalDifference": 17
               },
               {
                 "position": 2,
@@ -70450,15 +70506,15 @@
                   "tla": "NAP",
                   "crest": "https://crests.football-data.org/113.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
                 "won": 4,
                 "draw": 2,
-                "lost": 4,
+                "lost": 5,
                 "points": 14,
                 "goalsFor": 17,
-                "goalsAgainst": 13,
-                "goalDifference": 4
+                "goalsAgainst": 14,
+                "goalDifference": 3
               },
               {
                 "position": 11,
@@ -75885,7 +75941,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43878,
+                "name": "Felix Zwayer",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
