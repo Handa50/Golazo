@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T18:33:36.486Z",
+  "actualizado": "2026-11-09T00:50:08.741Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -10,7 +10,7 @@
           "count": 380,
           "first": "2026-08-15",
           "last": "2027-05-30",
-          "played": 116
+          "played": 119
         },
         "competition": {
           "id": 2014,
@@ -7452,7 +7452,7 @@
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T14:58:59Z",
+            "lastUpdated": "2026-11-08T23:25:09Z",
             "homeTeam": {
               "id": 285,
               "name": "Elche CF",
@@ -7518,7 +7518,7 @@
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T17:18:11Z",
+            "lastUpdated": "2026-11-08T23:25:09Z",
             "homeTeam": {
               "id": 92,
               "name": "Real Sociedad de Fútbol",
@@ -7580,11 +7580,11 @@
             },
             "id": 564742,
             "utcDate": "2026-11-08T17:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T18:26:59Z",
+            "lastUpdated": "2026-11-08T23:25:09Z",
             "homeTeam": {
               "id": 558,
               "name": "RC Celta de Vigo",
@@ -7646,11 +7646,11 @@
             },
             "id": 564747,
             "utcDate": "2026-11-08T17:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T18:24:51Z",
+            "lastUpdated": "2026-11-08T23:25:09Z",
             "homeTeam": {
               "id": 94,
               "name": "Villarreal CF",
@@ -7666,10 +7666,10 @@
               "crest": "https://crests.football-data.org/82.png"
             },
             "score": {
-              "winner": "DRAW",
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": 0,
+                "home": 2,
                 "away": 0
               },
               "halfTime": {
@@ -7712,11 +7712,11 @@
             },
             "id": 564746,
             "utcDate": "2026-11-08T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T01:32:01Z",
+            "lastUpdated": "2026-11-08T23:25:09Z",
             "homeTeam": {
               "id": 78,
               "name": "Club Atlético de Madrid",
@@ -7732,15 +7732,15 @@
               "crest": "https://crests.football-data.org/81.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 2
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               }
             },
             "odds": {
@@ -23202,15 +23202,15 @@
                   "tla": "FCB",
                   "crest": "https://crests.football-data.org/81.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
-                "won": 10,
+                "won": 11,
                 "draw": 0,
                 "lost": 1,
-                "points": 30,
-                "goalsFor": 46,
-                "goalsAgainst": 12,
-                "goalDifference": 34
+                "points": 33,
+                "goalsFor": 48,
+                "goalsAgainst": 13,
+                "goalDifference": 35
               },
               {
                 "position": 2,
@@ -23240,15 +23240,15 @@
                   "tla": "ATL",
                   "crest": "https://crests.football-data.org/78.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
                 "won": 9,
                 "draw": 1,
-                "lost": 1,
+                "lost": 2,
                 "points": 28,
-                "goalsFor": 22,
-                "goalsAgainst": 8,
-                "goalDifference": 14
+                "goalsFor": 23,
+                "goalsAgainst": 10,
+                "goalDifference": 13
               },
               {
                 "position": 4,
@@ -23329,6 +23329,25 @@
               {
                 "position": 8,
                 "team": {
+                  "id": 94,
+                  "name": "Villarreal CF",
+                  "shortName": "Villarreal",
+                  "tla": "VIL",
+                  "crest": "https://crests.football-data.org/94.png"
+                },
+                "playedGames": 12,
+                "form": null,
+                "won": 4,
+                "draw": 3,
+                "lost": 5,
+                "points": 15,
+                "goalsFor": 17,
+                "goalsAgainst": 15,
+                "goalDifference": 2
+              },
+              {
+                "position": 9,
+                "team": {
                   "id": 560,
                   "name": "RC Deportivo La Coruña",
                   "shortName": "Deportivo",
@@ -23346,7 +23365,7 @@
                 "goalDifference": 1
               },
               {
-                "position": 9,
+                "position": 10,
                 "team": {
                   "id": 5335,
                   "name": "Real Racing Club de Santander",
@@ -23363,25 +23382,6 @@
                 "goalsFor": 17,
                 "goalsAgainst": 30,
                 "goalDifference": -13
-              },
-              {
-                "position": 10,
-                "team": {
-                  "id": 94,
-                  "name": "Villarreal CF",
-                  "shortName": "Villarreal",
-                  "tla": "VIL",
-                  "crest": "https://crests.football-data.org/94.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 3,
-                "draw": 4,
-                "lost": 5,
-                "points": 13,
-                "goalsFor": 15,
-                "goalsAgainst": 15,
-                "goalDifference": 0
               },
               {
                 "position": 11,
@@ -23424,25 +23424,6 @@
               {
                 "position": 13,
                 "team": {
-                  "id": 82,
-                  "name": "Getafe CF",
-                  "shortName": "Getafe",
-                  "tla": "GET",
-                  "crest": "https://crests.football-data.org/82.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 3,
-                "draw": 4,
-                "lost": 5,
-                "points": 13,
-                "goalsFor": 8,
-                "goalsAgainst": 16,
-                "goalDifference": -8
-              },
-              {
-                "position": 14,
-                "team": {
                   "id": 80,
                   "name": "RCD Espanyol de Barcelona",
                   "shortName": "Espanyol",
@@ -23460,7 +23441,7 @@
                 "goalDifference": -1
               },
               {
-                "position": 15,
+                "position": 14,
                 "team": {
                   "id": 87,
                   "name": "Rayo Vallecano de Madrid",
@@ -23477,6 +23458,25 @@
                 "goalsFor": 15,
                 "goalsAgainst": 21,
                 "goalDifference": -6
+              },
+              {
+                "position": 15,
+                "team": {
+                  "id": 82,
+                  "name": "Getafe CF",
+                  "shortName": "Getafe",
+                  "tla": "GET",
+                  "crest": "https://crests.football-data.org/82.png"
+                },
+                "playedGames": 12,
+                "form": null,
+                "won": 3,
+                "draw": 3,
+                "lost": 6,
+                "points": 12,
+                "goalsFor": 8,
+                "goalsAgainst": 18,
+                "goalDifference": -10
               },
               {
                 "position": 16,
@@ -23587,7 +23587,7 @@
           "count": 380,
           "first": "2026-08-21",
           "last": "2027-05-30",
-          "played": 99
+          "played": 100
         },
         "competition": {
           "id": 2021,
@@ -29894,7 +29894,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:01:55Z",
+            "lastUpdated": "2026-11-08T19:25:06Z",
             "homeTeam": {
               "id": 354,
               "name": "Crystal Palace FC",
@@ -29960,7 +29960,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:08:19Z",
+            "lastUpdated": "2026-11-08T19:25:06Z",
             "homeTeam": {
               "id": 71,
               "name": "Sunderland AFC",
@@ -30026,7 +30026,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:04:03Z",
+            "lastUpdated": "2026-11-08T19:25:06Z",
             "homeTeam": {
               "id": 349,
               "name": "Ipswich Town FC",
@@ -30092,7 +30092,7 @@
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:04:03Z",
+            "lastUpdated": "2026-11-08T19:25:06Z",
             "homeTeam": {
               "id": 397,
               "name": "Brighton & Hove Albion FC",
@@ -30154,11 +30154,11 @@
             },
             "id": 560639,
             "utcDate": "2026-11-08T16:30:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T18:33:23Z",
+            "lastUpdated": "2026-11-08T19:25:06Z",
             "homeTeam": {
               "id": 66,
               "name": "Manchester United FC",
@@ -47143,7 +47143,7 @@
           "count": 380,
           "first": "2026-08-22",
           "last": "2027-05-30",
-          "played": 108
+          "played": 110
         },
         "competition": {
           "id": 2019,
@@ -54110,7 +54110,7 @@
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T13:29:55Z",
+            "lastUpdated": "2026-11-08T23:25:12Z",
             "homeTeam": {
               "id": 113,
               "name": "SSC Napoli",
@@ -54176,7 +54176,7 @@
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:04:03Z",
+            "lastUpdated": "2026-11-08T23:25:12Z",
             "homeTeam": {
               "id": 107,
               "name": "Genoa CFC",
@@ -54242,7 +54242,7 @@
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:00:51Z",
+            "lastUpdated": "2026-11-08T23:25:12Z",
             "homeTeam": {
               "id": 5911,
               "name": "AC Monza",
@@ -54304,11 +54304,11 @@
             },
             "id": 558530,
             "utcDate": "2026-11-08T17:00:00Z",
-            "status": "IN_PLAY",
+            "status": "FINISHED",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T18:32:51Z",
+            "lastUpdated": "2026-11-08T23:25:12Z",
             "homeTeam": {
               "id": 108,
               "name": "FC Internazionale Milano",
@@ -54370,11 +54370,11 @@
             },
             "id": 558529,
             "utcDate": "2026-11-08T19:45:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T01:32:01Z",
+            "lastUpdated": "2026-11-08T23:25:12Z",
             "homeTeam": {
               "id": 99,
               "name": "ACF Fiorentina",
@@ -54390,15 +54390,15 @@
               "crest": "https://crests.football-data.org/109.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 2
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               }
             },
             "odds": {
@@ -70498,14 +70498,14 @@
                   "tla": "JUV",
                   "crest": "https://crests.football-data.org/109.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
                 "won": 5,
-                "draw": 2,
+                "draw": 3,
                 "lost": 3,
-                "points": 17,
-                "goalsFor": 13,
-                "goalsAgainst": 10,
+                "points": 18,
+                "goalsFor": 15,
+                "goalsAgainst": 12,
                 "goalDifference": 3
               },
               {
@@ -70650,14 +70650,14 @@
                   "tla": "FIO",
                   "crest": "https://crests.football-data.org/99.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
                 "won": 2,
-                "draw": 2,
+                "draw": 3,
                 "lost": 6,
-                "points": 8,
-                "goalsFor": 15,
-                "goalsAgainst": 23,
+                "points": 9,
+                "goalsFor": 17,
+                "goalsAgainst": 25,
                 "goalDifference": -8
               },
               {
@@ -70769,7 +70769,7 @@
           "count": 306,
           "first": "2026-08-28",
           "last": "2027-05-22",
-          "played": 80
+          "played": 81
         },
         "competition": {
           "id": 2002,
@@ -75960,7 +75960,7 @@
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T16:29:39Z",
+            "lastUpdated": "2026-11-08T23:25:01Z",
             "homeTeam": {
               "id": 1,
               "name": "1. FC Köln",
@@ -76026,7 +76026,7 @@
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T18:29:07Z",
+            "lastUpdated": "2026-11-08T23:25:01Z",
             "homeTeam": {
               "id": 17,
               "name": "SC Freiburg",
@@ -76088,11 +76088,11 @@
             },
             "id": 565856,
             "utcDate": "2026-11-08T18:30:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 9,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-08T01:32:01Z",
+            "lastUpdated": "2026-11-08T23:25:01Z",
             "homeTeam": {
               "id": 2,
               "name": "TSG 1899 Hoffenheim",
@@ -76108,15 +76108,15 @@
               "crest": "https://crests.football-data.org/6.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 0
               }
             },
             "odds": {
@@ -89599,6 +89599,25 @@
               {
                 "position": 9,
                 "team": {
+                  "id": 2,
+                  "name": "TSG 1899 Hoffenheim",
+                  "shortName": "Hoffenheim",
+                  "tla": "TSG",
+                  "crest": "https://crests.football-data.org/2.png"
+                },
+                "playedGames": 9,
+                "form": null,
+                "won": 4,
+                "draw": 0,
+                "lost": 5,
+                "points": 12,
+                "goalsFor": 16,
+                "goalsAgainst": 17,
+                "goalDifference": -1
+              },
+              {
+                "position": 10,
+                "team": {
                   "id": 19,
                   "name": "Eintracht Frankfurt",
                   "shortName": "Frankfurt",
@@ -89616,7 +89635,7 @@
                 "goalDifference": -5
               },
               {
-                "position": 10,
+                "position": 11,
                 "team": {
                   "id": 7,
                   "name": "Hamburger SV",
@@ -89635,7 +89654,7 @@
                 "goalDifference": -10
               },
               {
-                "position": 11,
+                "position": 12,
                 "team": {
                   "id": 15,
                   "name": "1. FSV Mainz 05",
@@ -89652,25 +89671,6 @@
                 "goalsFor": 18,
                 "goalsAgainst": 19,
                 "goalDifference": -1
-              },
-              {
-                "position": 12,
-                "team": {
-                  "id": 2,
-                  "name": "TSG 1899 Hoffenheim",
-                  "shortName": "Hoffenheim",
-                  "tla": "TSG",
-                  "crest": "https://crests.football-data.org/2.png"
-                },
-                "playedGames": 9,
-                "form": null,
-                "won": 3,
-                "draw": 1,
-                "lost": 5,
-                "points": 10,
-                "goalsFor": 14,
-                "goalsAgainst": 16,
-                "goalDifference": -2
               },
               {
                 "position": 13,
@@ -89732,25 +89732,6 @@
               {
                 "position": 16,
                 "team": {
-                  "id": 6,
-                  "name": "FC Schalke 04",
-                  "shortName": "Schalke",
-                  "tla": "S04",
-                  "crest": "https://crests.football-data.org/6.png"
-                },
-                "playedGames": 9,
-                "form": null,
-                "won": 1,
-                "draw": 4,
-                "lost": 4,
-                "points": 7,
-                "goalsFor": 4,
-                "goalsAgainst": 9,
-                "goalDifference": -5
-              },
-              {
-                "position": 17,
-                "team": {
                   "id": 28,
                   "name": "1. FC Union Berlin",
                   "shortName": "Union Berlin",
@@ -89766,6 +89747,25 @@
                 "goalsFor": 7,
                 "goalsAgainst": 21,
                 "goalDifference": -14
+              },
+              {
+                "position": 17,
+                "team": {
+                  "id": 6,
+                  "name": "FC Schalke 04",
+                  "shortName": "Schalke",
+                  "tla": "S04",
+                  "crest": "https://crests.football-data.org/6.png"
+                },
+                "playedGames": 9,
+                "form": null,
+                "won": 1,
+                "draw": 3,
+                "lost": 5,
+                "points": 6,
+                "goalsFor": 5,
+                "goalsAgainst": 11,
+                "goalDifference": -6
               },
               {
                 "position": 18,
