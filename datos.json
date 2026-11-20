@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T12:58:06.483Z",
+  "actualizado": "2026-11-20T18:53:13.786Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -7812,7 +7812,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 217698,
+                "name": "Mateo Busquets Ferrer",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -76194,7 +76201,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 65424,
+                "name": "Robin Braun",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
