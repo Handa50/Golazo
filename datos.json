@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T18:53:13.786Z",
+  "actualizado": "2026-11-21T00:56:09.153Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -10,7 +10,7 @@
           "count": 380,
           "first": "2026-08-15",
           "last": "2027-05-30",
-          "played": 119
+          "played": 120
         },
         "competition": {
           "id": 2014,
@@ -7778,11 +7778,11 @@
             },
             "id": 564748,
             "utcDate": "2026-11-20T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 13,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-20T00:20:27Z",
+            "lastUpdated": "2026-11-20T23:25:14Z",
             "homeTeam": {
               "id": 77,
               "name": "Athletic Club",
@@ -7798,15 +7798,15 @@
               "crest": "https://crests.football-data.org/80.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
@@ -23323,15 +23323,15 @@
                   "tla": "ATH",
                   "crest": "https://crests.football-data.org/77.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
                 "won": 4,
                 "draw": 4,
-                "lost": 3,
+                "lost": 4,
                 "points": 16,
                 "goalsFor": 15,
-                "goalsAgainst": 11,
-                "goalDifference": 4
+                "goalsAgainst": 12,
+                "goalDifference": 3
               },
               {
                 "position": 8,
@@ -23374,6 +23374,25 @@
               {
                 "position": 10,
                 "team": {
+                  "id": 80,
+                  "name": "RCD Espanyol de Barcelona",
+                  "shortName": "Espanyol",
+                  "tla": "ESP",
+                  "crest": "https://crests.football-data.org/80.png"
+                },
+                "playedGames": 13,
+                "form": null,
+                "won": 4,
+                "draw": 3,
+                "lost": 6,
+                "points": 15,
+                "goalsFor": 14,
+                "goalsAgainst": 14,
+                "goalDifference": 0
+              },
+              {
+                "position": 11,
+                "team": {
                   "id": 5335,
                   "name": "Real Racing Club de Santander",
                   "shortName": "Santander",
@@ -23391,7 +23410,7 @@
                 "goalDifference": -13
               },
               {
-                "position": 11,
+                "position": 12,
                 "team": {
                   "id": 558,
                   "name": "RC Celta de Vigo",
@@ -23410,7 +23429,7 @@
                 "goalDifference": 0
               },
               {
-                "position": 12,
+                "position": 13,
                 "team": {
                   "id": 263,
                   "name": "Deportivo Alavés",
@@ -23427,25 +23446,6 @@
                 "goalsFor": 15,
                 "goalsAgainst": 17,
                 "goalDifference": -2
-              },
-              {
-                "position": 13,
-                "team": {
-                  "id": 80,
-                  "name": "RCD Espanyol de Barcelona",
-                  "shortName": "Espanyol",
-                  "tla": "ESP",
-                  "crest": "https://crests.football-data.org/80.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 3,
-                "draw": 3,
-                "lost": 6,
-                "points": 12,
-                "goalsFor": 13,
-                "goalsAgainst": 14,
-                "goalDifference": -1
               },
               {
                 "position": 14,
@@ -70776,7 +70776,7 @@
           "count": 306,
           "first": "2026-08-28",
           "last": "2027-05-22",
-          "played": 81
+          "played": 82
         },
         "competition": {
           "id": 2002,
@@ -76167,11 +76167,11 @@
             },
             "id": 565859,
             "utcDate": "2026-11-20T19:30:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 10,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-20T00:20:27Z",
+            "lastUpdated": "2026-11-20T23:25:07Z",
             "homeTeam": {
               "id": 5,
               "name": "FC Bayern München",
@@ -76187,15 +76187,15 @@
               "crest": "https://crests.football-data.org/1.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               }
             },
             "odds": {
@@ -89467,14 +89467,14 @@
                   "tla": "FCB",
                   "crest": "https://crests.football-data.org/5.png"
                 },
-                "playedGames": 9,
+                "playedGames": 10,
                 "form": null,
                 "won": 6,
-                "draw": 3,
+                "draw": 4,
                 "lost": 0,
-                "points": 21,
-                "goalsFor": 29,
-                "goalsAgainst": 9,
+                "points": 22,
+                "goalsFor": 30,
+                "goalsAgainst": 10,
                 "goalDifference": 20
               },
               {
@@ -89708,6 +89708,25 @@
               {
                 "position": 14,
                 "team": {
+                  "id": 1,
+                  "name": "1. FC Köln",
+                  "shortName": "1. FC Köln",
+                  "tla": "KOE",
+                  "crest": "https://crests.football-data.org/1.png"
+                },
+                "playedGames": 10,
+                "form": null,
+                "won": 2,
+                "draw": 4,
+                "lost": 4,
+                "points": 10,
+                "goalsFor": 11,
+                "goalsAgainst": 15,
+                "goalDifference": -4
+              },
+              {
+                "position": 15,
+                "team": {
                   "id": 16,
                   "name": "FC Augsburg",
                   "shortName": "Augsburg",
@@ -89723,25 +89742,6 @@
                 "goalsFor": 20,
                 "goalsAgainst": 20,
                 "goalDifference": 0
-              },
-              {
-                "position": 15,
-                "team": {
-                  "id": 1,
-                  "name": "1. FC Köln",
-                  "shortName": "1. FC Köln",
-                  "tla": "KOE",
-                  "crest": "https://crests.football-data.org/1.png"
-                },
-                "playedGames": 9,
-                "form": null,
-                "won": 2,
-                "draw": 3,
-                "lost": 4,
-                "points": 9,
-                "goalsFor": 10,
-                "goalsAgainst": 14,
-                "goalDifference": -4
               },
               {
                 "position": 16,
