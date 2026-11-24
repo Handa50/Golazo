@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24T13:05:47.078Z",
+  "actualizado": "2026-11-24T18:52:15.489Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -94858,11 +94858,11 @@
             },
             "id": 575395,
             "utcDate": "2026-11-24T17:45:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 5,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-24T00:20:26Z",
+            "lastUpdated": "2026-11-24T18:36:26Z",
             "homeTeam": {
               "id": 610,
               "name": "Galatasaray SK",
@@ -94878,21 +94878,28 @@
               "crest": "https://crests.football-data.org/58.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 15408,
+                "name": "Daniel Siebert",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
@@ -94917,11 +94924,11 @@
             },
             "id": 575396,
             "utcDate": "2026-11-24T17:45:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 5,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-24T00:20:26Z",
+            "lastUpdated": "2026-11-24T18:36:27Z",
             "homeTeam": {
               "id": 5721,
               "name": "FK Bodø/Glimt",
@@ -94937,11 +94944,11 @@
               "crest": "https://crests.football-data.org/2016.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
                 "home": null,
@@ -94951,7 +94958,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 214424,
+                "name": "Halil Meler",
+                "type": "REFEREE",
+                "nationality": "Turkey"
+              }
+            ]
           },
           {
             "area": {
@@ -95010,7 +95024,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 215543,
+                "name": "Espen Eskås",
+                "type": "REFEREE",
+                "nationality": "Norway"
+              }
+            ]
           },
           {
             "area": {
@@ -95069,7 +95090,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 37278,
+                "name": "István Kovács",
+                "type": "REFEREE",
+                "nationality": "Romania"
+              }
+            ]
           },
           {
             "area": {
@@ -95128,7 +95156,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11043,
+                "name": "Maurizio Mariani",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -95187,7 +95222,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 15680,
+                "name": "Irfan Peljto",
+                "type": "REFEREE",
+                "nationality": "Bosnia and Herzegovina"
+              }
+            ]
           },
           {
             "area": {
@@ -95246,7 +95288,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 15548,
+                "name": "Jérôme Brisard",
+                "type": "REFEREE",
+                "nationality": "France"
+              }
+            ]
           },
           {
             "area": {
@@ -95305,7 +95354,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43954,
+                "name": "Ivan Kružliak",
+                "type": "REFEREE",
+                "nationality": "Slovakia"
+              }
+            ]
           },
           {
             "area": {
@@ -95364,7 +95420,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 80747,
+                "name": "Javier Alberola Rojas",
+                "type": "REFEREE",
+                "nationality": null
+              }
+            ]
           },
           {
             "area": {
