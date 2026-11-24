@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-23T18:53:36.029Z",
+  "actualizado": "2026-11-24T00:56:36.758Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -10,7 +10,7 @@
           "count": 380,
           "first": "2026-08-15",
           "last": "2027-05-30",
-          "played": 128
+          "played": 129
         },
         "competition": {
           "id": 2014,
@@ -8372,11 +8372,11 @@
             },
             "id": 564757,
             "utcDate": "2026-11-23T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 13,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-23T00:20:25Z",
+            "lastUpdated": "2026-11-23T23:25:07Z",
             "homeTeam": {
               "id": 88,
               "name": "Levante UD",
@@ -8392,15 +8392,15 @@
               "crest": "https://crests.football-data.org/285.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
@@ -23532,6 +23532,25 @@
               {
                 "position": 15,
                 "team": {
+                  "id": 88,
+                  "name": "Levante UD",
+                  "shortName": "Levante",
+                  "tla": "LEV",
+                  "crest": "https://crests.football-data.org/88.png"
+                },
+                "playedGames": 13,
+                "form": null,
+                "won": 2,
+                "draw": 6,
+                "lost": 5,
+                "points": 12,
+                "goalsFor": 17,
+                "goalsAgainst": 22,
+                "goalDifference": -5
+              },
+              {
+                "position": 16,
+                "team": {
                   "id": 87,
                   "name": "Rayo Vallecano de Madrid",
                   "shortName": "Rayo Vallecano",
@@ -23549,7 +23568,7 @@
                 "goalDifference": -7
               },
               {
-                "position": 16,
+                "position": 17,
                 "team": {
                   "id": 95,
                   "name": "Valencia CF",
@@ -23568,7 +23587,7 @@
                 "goalDifference": -11
               },
               {
-                "position": 17,
+                "position": 18,
                 "team": {
                   "id": 82,
                   "name": "Getafe CF",
@@ -23587,25 +23606,6 @@
                 "goalDifference": -13
               },
               {
-                "position": 18,
-                "team": {
-                  "id": 88,
-                  "name": "Levante UD",
-                  "shortName": "Levante",
-                  "tla": "LEV",
-                  "crest": "https://crests.football-data.org/88.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 2,
-                "draw": 5,
-                "lost": 5,
-                "points": 11,
-                "goalsFor": 16,
-                "goalsAgainst": 21,
-                "goalDifference": -5
-              },
-              {
                 "position": 19,
                 "team": {
                   "id": 285,
@@ -23614,14 +23614,14 @@
                   "tla": "ELC",
                   "crest": "https://crests.football-data.org/285.png"
                 },
-                "playedGames": 12,
+                "playedGames": 13,
                 "form": null,
                 "won": 2,
-                "draw": 4,
+                "draw": 5,
                 "lost": 6,
-                "points": 10,
-                "goalsFor": 14,
-                "goalsAgainst": 20,
+                "points": 11,
+                "goalsFor": 15,
+                "goalsAgainst": 21,
                 "goalDifference": -6
               },
               {
@@ -23657,7 +23657,7 @@
           "count": 380,
           "first": "2026-08-21",
           "last": "2027-05-30",
-          "played": 109
+          "played": 110
         },
         "competition": {
           "id": 2021,
@@ -30884,11 +30884,11 @@
             },
             "id": 560649,
             "utcDate": "2026-11-23T20:00:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-23T00:20:26Z",
+            "lastUpdated": "2026-11-23T23:25:12Z",
             "homeTeam": {
               "id": 402,
               "name": "Brentford FC",
@@ -30904,15 +30904,15 @@
               "crest": "https://crests.football-data.org/62.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 4,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 0
               }
             },
             "odds": {
@@ -46987,6 +46987,25 @@
               {
                 "position": 6,
                 "team": {
+                  "id": 402,
+                  "name": "Brentford FC",
+                  "shortName": "Brentford",
+                  "tla": "BRE",
+                  "crest": "https://crests.football-data.org/402.png"
+                },
+                "playedGames": 11,
+                "form": null,
+                "won": 4,
+                "draw": 5,
+                "lost": 2,
+                "points": 17,
+                "goalsFor": 20,
+                "goalsAgainst": 11,
+                "goalDifference": 9
+              },
+              {
+                "position": 7,
+                "team": {
                   "id": 341,
                   "name": "Leeds United FC",
                   "shortName": "Leeds United",
@@ -47002,25 +47021,6 @@
                 "goalsFor": 14,
                 "goalsAgainst": 9,
                 "goalDifference": 5
-              },
-              {
-                "position": 7,
-                "team": {
-                  "id": 62,
-                  "name": "Everton FC",
-                  "shortName": "Everton",
-                  "tla": "EVE",
-                  "crest": "https://crests.football-data.org/62.png"
-                },
-                "playedGames": 10,
-                "form": null,
-                "won": 4,
-                "draw": 4,
-                "lost": 2,
-                "points": 16,
-                "goalsFor": 12,
-                "goalsAgainst": 10,
-                "goalDifference": 2
               },
               {
                 "position": 8,
@@ -47044,6 +47044,25 @@
               {
                 "position": 9,
                 "team": {
+                  "id": 62,
+                  "name": "Everton FC",
+                  "shortName": "Everton",
+                  "tla": "EVE",
+                  "crest": "https://crests.football-data.org/62.png"
+                },
+                "playedGames": 11,
+                "form": null,
+                "won": 4,
+                "draw": 4,
+                "lost": 3,
+                "points": 16,
+                "goalsFor": 12,
+                "goalsAgainst": 14,
+                "goalDifference": -2
+              },
+              {
+                "position": 10,
+                "team": {
                   "id": 73,
                   "name": "Tottenham Hotspur FC",
                   "shortName": "Tottenham",
@@ -47059,25 +47078,6 @@
                 "goalsFor": 12,
                 "goalsAgainst": 11,
                 "goalDifference": 1
-              },
-              {
-                "position": 10,
-                "team": {
-                  "id": 402,
-                  "name": "Brentford FC",
-                  "shortName": "Brentford",
-                  "tla": "BRE",
-                  "crest": "https://crests.football-data.org/402.png"
-                },
-                "playedGames": 10,
-                "form": null,
-                "won": 3,
-                "draw": 5,
-                "lost": 2,
-                "points": 14,
-                "goalsFor": 16,
-                "goalsAgainst": 11,
-                "goalDifference": 5
               },
               {
                 "position": 11,
@@ -47283,7 +47283,7 @@
           "count": 380,
           "first": "2026-08-22",
           "last": "2027-05-30",
-          "played": 119
+          "played": 120
         },
         "competition": {
           "id": 2019,
@@ -55170,11 +55170,11 @@
             },
             "id": 558519,
             "utcDate": "2026-11-23T19:45:00Z",
-            "status": "TIMED",
+            "status": "FINISHED",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-23T00:20:26Z",
+            "lastUpdated": "2026-11-23T23:25:11Z",
             "homeTeam": {
               "id": 5911,
               "name": "AC Monza",
@@ -55190,15 +55190,15 @@
               "crest": "https://crests.football-data.org/99.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 0
               }
             },
             "odds": {
@@ -70835,6 +70835,25 @@
               {
                 "position": 14,
                 "team": {
+                  "id": 5911,
+                  "name": "AC Monza",
+                  "shortName": "Monza",
+                  "tla": "MON",
+                  "crest": "https://crests.football-data.org/5911.png"
+                },
+                "playedGames": 12,
+                "form": null,
+                "won": 3,
+                "draw": 1,
+                "lost": 8,
+                "points": 10,
+                "goalsFor": 20,
+                "goalsAgainst": 25,
+                "goalDifference": -5
+              },
+              {
+                "position": 15,
+                "team": {
                   "id": 5890,
                   "name": "US Lecce",
                   "shortName": "Lecce",
@@ -70852,7 +70871,7 @@
                 "goalDifference": -13
               },
               {
-                "position": 15,
+                "position": 16,
                 "team": {
                   "id": 99,
                   "name": "ACF Fiorentina",
@@ -70860,18 +70879,18 @@
                   "tla": "FIO",
                   "crest": "https://crests.football-data.org/99.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
                 "won": 2,
                 "draw": 3,
-                "lost": 6,
+                "lost": 7,
                 "points": 9,
                 "goalsFor": 17,
-                "goalsAgainst": 25,
-                "goalDifference": -8
+                "goalsAgainst": 28,
+                "goalDifference": -11
               },
               {
-                "position": 16,
+                "position": 17,
                 "team": {
                   "id": 112,
                   "name": "Parma Calcio 1913",
@@ -70890,7 +70909,7 @@
                 "goalDifference": -12
               },
               {
-                "position": 17,
+                "position": 18,
                 "team": {
                   "id": 471,
                   "name": "US Sassuolo Calcio",
@@ -70907,25 +70926,6 @@
                 "goalsFor": 16,
                 "goalsAgainst": 31,
                 "goalDifference": -15
-              },
-              {
-                "position": 18,
-                "team": {
-                  "id": 5911,
-                  "name": "AC Monza",
-                  "shortName": "Monza",
-                  "tla": "MON",
-                  "crest": "https://crests.football-data.org/5911.png"
-                },
-                "playedGames": 11,
-                "form": null,
-                "won": 2,
-                "draw": 1,
-                "lost": 8,
-                "points": 7,
-                "goalsFor": 17,
-                "goalsAgainst": 25,
-                "goalDifference": -8
               },
               {
                 "position": 19,
