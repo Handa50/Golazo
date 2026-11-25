@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T13:10:19.553Z",
+  "actualizado": "2026-11-25T18:46:01.397Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -95452,11 +95452,11 @@
             },
             "id": 575404,
             "utcDate": "2026-11-25T17:45:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 5,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-25T01:32:00Z",
+            "lastUpdated": "2026-11-25T18:36:26Z",
             "homeTeam": {
               "id": 10233,
               "name": "Sabah FK",
@@ -95472,21 +95472,28 @@
               "crest": "https://crests.football-data.org/81.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 15510,
+                "name": "Nick Walsh",
+                "type": "REFEREE",
+                "nationality": "Scotland"
+              }
+            ]
           },
           {
             "area": {
@@ -95511,11 +95518,11 @@
             },
             "id": 575405,
             "utcDate": "2026-11-25T17:45:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 5,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-25T01:32:00Z",
+            "lastUpdated": "2026-11-25T18:38:34Z",
             "homeTeam": {
               "id": 930,
               "name": "SK Slavia Praha",
@@ -95531,21 +95538,28 @@
               "crest": "https://crests.football-data.org/94.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43936,
+                "name": "Rade Obrenović",
+                "type": "REFEREE",
+                "nationality": "Slovenia"
+              }
+            ]
           },
           {
             "area": {
@@ -95604,7 +95618,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43918,
+                "name": "François Letexier",
+                "type": "REFEREE",
+                "nationality": "France"
+              }
+            ]
           },
           {
             "area": {
@@ -95663,7 +95684,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 17631,
+                "name": "Erik Lambrechts",
+                "type": "REFEREE",
+                "nationality": "Belgium"
+              }
+            ]
           },
           {
             "area": {
@@ -95722,7 +95750,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 30960,
+                "name": "Glenn Nyberg",
+                "type": "REFEREE",
+                "nationality": "Sweden"
+              }
+            ]
           },
           {
             "area": {
@@ -95781,7 +95816,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 206208,
+                "name": "Alejandro Hernández Hernández",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -95840,7 +95882,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11079,
+                "name": "Marco Guida",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -95899,7 +95948,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43888,
+                "name": "Szymon Marciniak",
+                "type": "REFEREE",
+                "nationality": "Poland"
+              }
+            ]
           },
           {
             "area": {
@@ -95958,7 +96014,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11605,
+                "name": "Michael Oliver",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
