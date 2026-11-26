@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T07:06:05.045Z",
+  "actualizado": "2026-11-26T13:07:37.020Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -23254,7 +23254,7 @@
           "id": 2518,
           "startDate": "2026-08-16",
           "endDate": "2027-05-30",
-          "currentMatchday": 13,
+          "currentMatchday": 14,
           "winner": null
         },
         "standings": [
@@ -46880,7 +46880,7 @@
           "id": 2502,
           "startDate": "2026-08-21",
           "endDate": "2027-05-30",
-          "currentMatchday": 11,
+          "currentMatchday": 12,
           "winner": null
         },
         "standings": [
@@ -70576,7 +70576,7 @@
           "id": 2494,
           "startDate": "2026-08-23",
           "endDate": "2027-05-30",
-          "currentMatchday": 12,
+          "currentMatchday": 13,
           "winner": null
         },
         "standings": [
@@ -95192,7 +95192,7 @@
             "matchday": 5,
             "stage": "LEAGUE_STAGE",
             "group": null,
-            "lastUpdated": "2026-11-26T00:20:27Z",
+            "lastUpdated": "2026-11-26T12:10:53Z",
             "homeTeam": {
               "id": 675,
               "name": "Feyenoord Rotterdam",
