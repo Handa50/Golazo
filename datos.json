@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T07:18:24.681Z",
+  "actualizado": "2026-11-27T20:49:41.116Z",
   "competiciones": {
     "LaLiga": {
       "partidos": {
@@ -8438,11 +8438,11 @@
             },
             "id": 564765,
             "utcDate": "2026-11-27T20:00:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 14,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-27T00:20:30Z",
+            "lastUpdated": "2026-11-27T20:48:43Z",
             "homeTeam": {
               "id": 88,
               "name": "Levante UD",
@@ -8458,11 +8458,11 @@
               "crest": "https://crests.football-data.org/5335.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
                 "home": null,
@@ -8472,7 +8472,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 214573,
+                "name": "Miguel Sesma Espinosa",
+                "type": "REFEREE",
+                "nationality": "Spain"
+              }
+            ]
           },
           {
             "area": {
@@ -23386,12 +23393,12 @@
                   "tla": "SAN",
                   "crest": "https://crests.football-data.org/5335.png"
                 },
-                "playedGames": 13,
+                "playedGames": 14,
                 "form": null,
                 "won": 5,
-                "draw": 2,
+                "draw": 3,
                 "lost": 6,
-                "points": 17,
+                "points": 18,
                 "goalsFor": 20,
                 "goalsAgainst": 32,
                 "goalDifference": -12
@@ -23538,12 +23545,12 @@
                   "tla": "LEV",
                   "crest": "https://crests.football-data.org/88.png"
                 },
-                "playedGames": 13,
+                "playedGames": 14,
                 "form": null,
                 "won": 2,
-                "draw": 6,
+                "draw": 7,
                 "lost": 5,
-                "points": 12,
+                "points": 13,
                 "goalsFor": 17,
                 "goalsAgainst": 22,
                 "goalDifference": -5
@@ -30950,11 +30957,11 @@
             },
             "id": 560658,
             "utcDate": "2026-11-27T20:00:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 12,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-27T00:20:30Z",
+            "lastUpdated": "2026-11-27T20:48:42Z",
             "homeTeam": {
               "id": 351,
               "name": "Nottingham Forest FC",
@@ -30970,11 +30977,11 @@
               "crest": "https://crests.football-data.org/61.png"
             },
             "score": {
-              "winner": null,
+              "winner": "HOME_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 0
               },
               "halfTime": {
                 "home": null,
@@ -30984,7 +30991,14 @@
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 11423,
+                "name": "Andy Madley",
+                "type": "REFEREE",
+                "nationality": "England"
+              }
+            ]
           },
           {
             "area": {
@@ -47031,15 +47045,15 @@
                   "tla": "CHE",
                   "crest": "https://crests.football-data.org/61.png"
                 },
-                "playedGames": 11,
+                "playedGames": 12,
                 "form": null,
                 "won": 5,
                 "draw": 1,
-                "lost": 5,
+                "lost": 6,
                 "points": 16,
                 "goalsFor": 20,
-                "goalsAgainst": 20,
-                "goalDifference": 0
+                "goalsAgainst": 21,
+                "goalDifference": -1
               },
               {
                 "position": 9,
@@ -47139,6 +47153,25 @@
               {
                 "position": 14,
                 "team": {
+                  "id": 351,
+                  "name": "Nottingham Forest FC",
+                  "shortName": "Nottingham",
+                  "tla": "NOT",
+                  "crest": "https://crests.football-data.org/351.png"
+                },
+                "playedGames": 12,
+                "form": null,
+                "won": 3,
+                "draw": 3,
+                "lost": 6,
+                "points": 12,
+                "goalsFor": 10,
+                "goalsAgainst": 15,
+                "goalDifference": -5
+              },
+              {
+                "position": 15,
+                "team": {
                   "id": 1076,
                   "name": "Coventry City FC",
                   "shortName": "Coventry City",
@@ -47156,7 +47189,7 @@
                 "goalDifference": -8
               },
               {
-                "position": 15,
+                "position": 16,
                 "team": {
                   "id": 63,
                   "name": "Fulham FC",
@@ -47175,7 +47208,7 @@
                 "goalDifference": -2
               },
               {
-                "position": 16,
+                "position": 17,
                 "team": {
                   "id": 349,
                   "name": "Ipswich Town FC",
@@ -47192,25 +47225,6 @@
                 "goalsFor": 15,
                 "goalsAgainst": 22,
                 "goalDifference": -7
-              },
-              {
-                "position": 17,
-                "team": {
-                  "id": 351,
-                  "name": "Nottingham Forest FC",
-                  "shortName": "Nottingham",
-                  "tla": "NOT",
-                  "crest": "https://crests.football-data.org/351.png"
-                },
-                "playedGames": 11,
-                "form": null,
-                "won": 2,
-                "draw": 3,
-                "lost": 6,
-                "points": 9,
-                "goalsFor": 9,
-                "goalsAgainst": 15,
-                "goalDifference": -6
               },
               {
                 "position": 18,
@@ -55236,11 +55250,11 @@
             },
             "id": 558515,
             "utcDate": "2026-11-27T19:45:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 13,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-27T00:20:30Z",
+            "lastUpdated": "2026-11-27T20:40:43Z",
             "homeTeam": {
               "id": 454,
               "name": "Venezia FC",
@@ -55256,21 +55270,28 @@
               "crest": "https://crests.football-data.org/103.png"
             },
             "score": {
-              "winner": null,
+              "winner": "DRAW",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 57878,
+                "name": "Andrea Colombo",
+                "type": "REFEREE",
+                "nationality": "Italy"
+              }
+            ]
           },
           {
             "area": {
@@ -70721,6 +70742,25 @@
               {
                 "position": 8,
                 "team": {
+                  "id": 103,
+                  "name": "Bologna FC 1909",
+                  "shortName": "Bologna",
+                  "tla": "BOL",
+                  "crest": "https://crests.football-data.org/103.png"
+                },
+                "playedGames": 13,
+                "form": null,
+                "won": 5,
+                "draw": 4,
+                "lost": 4,
+                "points": 19,
+                "goalsFor": 17,
+                "goalsAgainst": 15,
+                "goalDifference": 2
+              },
+              {
+                "position": 9,
+                "team": {
                   "id": 113,
                   "name": "SSC Napoli",
                   "shortName": "Napoli",
@@ -70736,25 +70776,6 @@
                 "goalsFor": 19,
                 "goalsAgainst": 14,
                 "goalDifference": 5
-              },
-              {
-                "position": 9,
-                "team": {
-                  "id": 103,
-                  "name": "Bologna FC 1909",
-                  "shortName": "Bologna",
-                  "tla": "BOL",
-                  "crest": "https://crests.football-data.org/103.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 5,
-                "draw": 3,
-                "lost": 4,
-                "points": 18,
-                "goalsFor": 17,
-                "goalsAgainst": 15,
-                "goalDifference": 2
               },
               {
                 "position": 10,
@@ -70930,6 +70951,25 @@
               {
                 "position": 19,
                 "team": {
+                  "id": 454,
+                  "name": "Venezia FC",
+                  "shortName": "Venezia FC",
+                  "tla": "VEN",
+                  "crest": "https://crests.football-data.org/454.png"
+                },
+                "playedGames": 13,
+                "form": null,
+                "won": 2,
+                "draw": 1,
+                "lost": 10,
+                "points": 7,
+                "goalsFor": 8,
+                "goalsAgainst": 25,
+                "goalDifference": -17
+              },
+              {
+                "position": 20,
+                "team": {
                   "id": 115,
                   "name": "Udinese Calcio",
                   "shortName": "Udinese",
@@ -70945,25 +70985,6 @@
                 "goalsFor": 13,
                 "goalsAgainst": 26,
                 "goalDifference": -13
-              },
-              {
-                "position": 20,
-                "team": {
-                  "id": 454,
-                  "name": "Venezia FC",
-                  "shortName": "Venezia FC",
-                  "tla": "VEN",
-                  "crest": "https://crests.football-data.org/454.png"
-                },
-                "playedGames": 12,
-                "form": null,
-                "won": 2,
-                "draw": 0,
-                "lost": 10,
-                "points": 6,
-                "goalsFor": 8,
-                "goalsAgainst": 25,
-                "goalDifference": -17
               }
             ]
           }
@@ -76964,11 +76985,11 @@
             },
             "id": 565869,
             "utcDate": "2026-11-27T19:30:00Z",
-            "status": "TIMED",
+            "status": "IN_PLAY",
             "matchday": 11,
             "stage": "REGULAR_SEASON",
             "group": null,
-            "lastUpdated": "2026-11-27T00:20:29Z",
+            "lastUpdated": "2026-11-27T20:48:11Z",
             "homeTeam": {
               "id": 12,
               "name": "SV Werder Bremen",
@@ -76984,21 +77005,28 @@
               "crest": "https://crests.football-data.org/18.png"
             },
             "score": {
-              "winner": null,
+              "winner": "AWAY_TEAM",
               "duration": "REGULAR",
               "fullTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 2
               },
               "halfTime": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 1
               }
             },
             "odds": {
               "msg": "Activate Odds-Package in User-Panel to retrieve odds."
             },
-            "referees": []
+            "referees": [
+              {
+                "id": 43878,
+                "name": "Felix Zwayer",
+                "type": "REFEREE",
+                "nationality": "Germany"
+              }
+            ]
           },
           {
             "area": {
@@ -89821,15 +89849,15 @@
                   "tla": "SVW",
                   "crest": "https://crests.football-data.org/12.png"
                 },
-                "playedGames": 10,
+                "playedGames": 11,
                 "form": null,
                 "won": 5,
                 "draw": 3,
-                "lost": 2,
+                "lost": 3,
                 "points": 18,
-                "goalsFor": 21,
-                "goalsAgainst": 15,
-                "goalDifference": 6
+                "goalsFor": 22,
+                "goalsAgainst": 17,
+                "goalDifference": 5
               },
               {
                 "position": 7,
@@ -90024,6 +90052,25 @@
               {
                 "position": 17,
                 "team": {
+                  "id": 18,
+                  "name": "Borussia Mönchengladbach",
+                  "shortName": "M'gladbach",
+                  "tla": "BMG",
+                  "crest": "https://crests.football-data.org/18.png"
+                },
+                "playedGames": 11,
+                "form": null,
+                "won": 2,
+                "draw": 1,
+                "lost": 8,
+                "points": 7,
+                "goalsFor": 14,
+                "goalsAgainst": 27,
+                "goalDifference": -13
+              },
+              {
+                "position": 18,
+                "team": {
                   "id": 28,
                   "name": "1. FC Union Berlin",
                   "shortName": "Union Berlin",
@@ -90039,25 +90086,6 @@
                 "goalsFor": 8,
                 "goalsAgainst": 26,
                 "goalDifference": -18
-              },
-              {
-                "position": 18,
-                "team": {
-                  "id": 18,
-                  "name": "Borussia Mönchengladbach",
-                  "shortName": "M'gladbach",
-                  "tla": "BMG",
-                  "crest": "https://crests.football-data.org/18.png"
-                },
-                "playedGames": 10,
-                "form": null,
-                "won": 1,
-                "draw": 1,
-                "lost": 8,
-                "points": 4,
-                "goalsFor": 12,
-                "goalsAgainst": 26,
-                "goalDifference": -14
               }
             ]
           }
